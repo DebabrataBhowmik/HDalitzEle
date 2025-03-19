@@ -8,7 +8,8 @@ This framework relies on two distinct environments. The `hdalitz2` environment c
 On the other hand, the `hdalitzAna` environment is dedicated to event selections and is equipped with a smaller set of C++ packages like **ROOT** and **boost-cpp**.
 
 ```bash
-git clone https://github.com/chw1207/HDalitzEle.git
+#git clone https://github.com/chw1207/HDalitzEle.git
+git clone https://github.com/DebabrataBhowmik/HDalitzEle.git
 cd HDalitzEle
 conda create --name hdalitz2 --file requirements.txt
 conda create --name hdalitzAna --file requirements_c.txt
