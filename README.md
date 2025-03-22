@@ -12,7 +12,7 @@ On the other hand, the `hdalitzAna` environment is dedicated to event selections
 git clone https://github.com/DebabrataBhowmik/HDalitzEle.git
 cd HDalitzEle
 conda create --name hdalitz2 --file requirements.txt
-conda create --name hdalitzAna --file requirements_c.txt
+CONDA_OVERRIDE_CUDA="11.8" conda create --name hdalitzAna --file requirements_c.txt
 ```
 
 After the installations of necessary dependencies, you can set up the environments by 
