@@ -54,6 +54,14 @@ Submitting these tasks to a computing cluster with multiple nodes can be efficie
 cd bin
 condor_submit submit_mc.sub 
 ```
+Condor didn't work for NCU cluster ot seems(for the time being at least, just after recovering the major data4 lost for months), so running the following scripts one by one :
+```bash
+submit_mc.sh
+submit_mc_resolved.sh
+submit_data.sh
+submit_data_resolved.sub
+```
+
 ----
 ### 2. Evaluating the performance
 The **runSignificance** program computes the approximate median significance for each category. Here, the signal is estimated within the 2σ region, while the non-resonant background is estimated from a data side-band region, scaled to match the mass window of the signal.
